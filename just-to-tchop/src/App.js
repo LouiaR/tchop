@@ -1,11 +1,13 @@
 import React, { Component } from 'react';
 import Layout from './components/Layout/Layout';
+import TchopBuilder from './containers/TchopBuilder/TchopBuilder';
+
 class App extends Component {
   render() {
     return (
       <div>
         <Layout>
-          <h1> Bravo </h1>
+          <TchopBuilder />
         </Layout>
       </div>
     );
