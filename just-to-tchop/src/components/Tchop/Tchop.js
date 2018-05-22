@@ -10,7 +10,6 @@ const tchop = (props) => {
         .map((_, i) => <Ingredients key={ingre+i} type={ingre} />
     )})
     const menuLength = [].concat.apply([], menu).length;
-    console.log(menuLength)
     if (menuLength === 0){
          menu = <p> Please add your favorite flavours! </p>;
     }   
